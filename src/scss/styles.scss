@@ -105,3 +105,51 @@ body {
   font-size: 0.86em;
   color: var(--bs-secondary-color);
 }
+
+// >>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<
+
+$primary-color: #007bff;
+$secondary-color: #333;
+$light-bg-color: #f9f9f9;
+
+.footer {
+  background-color: $light-bg-color;
+  padding: 40px 0;
+
+  h3 {
+    color: $primary-color;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: $secondary-color;
+    margin-bottom: 10px;
+  }
+
+  .subscribe-form {
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: $primary-color;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: darken($primary-color, 20%);
+      }
+    }
+  }
+
+  .text-center {
+    text-align: center;
+  }
+}
