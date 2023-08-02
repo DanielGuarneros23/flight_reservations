@@ -24,8 +24,72 @@
         </ul>
       </nav>
       </div>
-    </div>
+      
+      <button type="button" class="btn btn-primary me-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Toggle offcanvas</button>
+      <a id="popoverButton" class="text-success" href="#" role="button" data-bs-toggle="popover" title="Custom popover" data-bs-content="This is a Bootstrap popover.">Example popover</a>
 
-  
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr class="col-1 my-5 mx-0">
+
+      <h2>Guides</h2>
+      <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
+      <ul class="icon-list">
+        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap quick start guide</a></li>
+        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/webpack/">Bootstrap Webpack guide</a></li>
+        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/parcel/">Bootstrap Parcel guide</a></li>
+        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/vite/">Bootstrap Vite guide</a></li>
+        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/contribute/">Contributing to Bootstrap</a></li>
+      </ul>
+
+      <hr class="mt-5 mb-4">
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Información de contacto</h3>
+            <p>Nombre de la aerolínea</p>
+            <p>Dirección de la aerolínea</p>
+            <p>Teléfono: +1 234 567 890</p>
+            <p>Email: info@aerolinea.com</p>
+          </div>
+          <div class="col-md-6">
+            <h3>¡Suscríbete a nuestro boletín!</h3>
+            <p>Recibe las últimas ofertas y noticias sobre vuelos.</p>
+            <form class="subscribe-form" action="#" method="post">
+              <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+              <button type="submit">Suscribirse</button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="text-center">&copy; 2023 Nombre de la aerolínea. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
   </body>
 </html>
