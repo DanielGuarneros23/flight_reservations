@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap w/ Vite</title>
+    
+    <!--<script type="module" src="./js/main.js"></script>-->
+    
+    <script type="module" crossorigin src="/assets/index-9f95c8ee.js"></script>
+    <link rel="stylesheet" href="/assets/index-16aeffe2.css">
+  </head>
+  <body>
+    <div class="container py-4 px-3 mx-auto">
+        <div class="col-md-6">
+        <form action="/projects/load">
+            <div class="mb-2">
+              <label for="exampleInputEmail1" class="form-label">Project</label>
+              <select class="form-select  form-select-sm" aria-label="Default select example">
+                <option selected>Select destiny project</option>
+                <option value="1">Create new project</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-2 formGroup">
+              <label for="exampleInputPassword1" class="form-label">Project name</label>
+              <input type="project" class="form-control form-control-sm" id="exampleInputPassword1">
+            </div>
+            <div class="mb-2">
+              <label for="basic-url" class="form-label">Destiny directory</label>
+              <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="basic-addon3">user/</span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+              </div>
+            </div>
+            <div class="mb-2">
+              <label for="exampleInputPassword1" class="form-label">Zip file</label>
+              <input type="file" class="form-control  form-control-sm" id="exampleInputPassword1">
+            </div>
+            <div class="mb-4 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Clear previous content in this directory</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        </div>
+    </div>
+  </body>
+</html>
