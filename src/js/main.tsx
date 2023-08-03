@@ -1,15 +1,5 @@
-type person = {
-    name: string;
-}
-const a: person = {
-    name: "fulanito"
-}
-console.log(a);
-console.log('hello world!!!!!!');
-
-export {}
-
 import axios, { AxiosRequestConfig } from 'axios';
+import { autocomplete } from './autocomplete';
 
 interface Flight {
   arrivalAirport: {
