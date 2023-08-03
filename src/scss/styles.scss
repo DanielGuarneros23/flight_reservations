@@ -88,20 +88,42 @@ $success: #7952b3;
 //
 // Custom styles
 //
+@use './variables.scss';
 
 @import "icon-list";
+
 // Import all of Bootstrap's CSS
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";
 
-
+// Estilos para el body
 body {
   padding: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  
+  a {
+    color: variables.$primary-color;
+    text-decoration: none;
+    
+    &:hover {
+      color: variables.$secondary-color;
+      text-decoration: none;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
 }
+
+// Estilos para la clase .form-label
 .form-label {
   margin-bottom: 0.1rem;
 }
+
+// Estilos para la clase .form-text
 .form-text {
   margin-top: 0rem;
   font-size: 0.86em;
-  color: var(--bs-secondary-color);
+  color: variables.$secondary-color;
 }
