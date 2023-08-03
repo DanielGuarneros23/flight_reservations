@@ -55,3 +55,5 @@ function getFlights() {
 }
 
 getFlights();
+
+export {}
