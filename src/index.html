@@ -1,95 +1,183 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap w/ Vite</title>
-    <link rel="stylesheet" href="scss/styles.scss">
-    <link rel="stylesheet" href="scss/nav.scss">
-    <!--<script type="module" src="./js/main.js"></script>-->
-    <script type="module" src="js/main.tsx"></script>
-  </head>
-  <body>
-    <div class="containerMain">
-      <div id="navigation-bar">
-      <nav>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap w/ Vite</title>
+  <link rel="stylesheet" href="scss/styles.scss">
+  <link rel="stylesheet" href="scss/nav.scss">
+  <link rel="stylesheet" href="scss/calendar.scss">
+  <link rel="stylesheet" href="scss/footer.scss">
+  <link rel="stylesheet" href="scss/icon-list.scss">
+  <!--<script type="module" src="./js/main.js"></script>-->
+  <script type="module" src="js/main.tsx"></script>
+</head>
+
+<body>
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Header <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a href="index.html">Tomate1Flyght</a></h1>
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="#" id="logo">LOGO</a></li>
-          <li><a href=#>Home</a></li>
-          <li><a href=#>About</a></li>
-          <li><a href=#>Portfolio</a></li>
-          <li><a href=#>Services</a></li>
-          <li><a href=#>Contact</a></li>
-          <a href="#" id="menu-icon"></a>
+          <li><a class="nav-link scrollto " href="#">Divisa</a></li>
+          <li><a class="nav-link scrollto" href="#">Idioma</a></li>
+          <li><a class="nav-link scrollto" href="#">Notificaciones</a></li>
+          <li><a class="nav-link scrollto" href="#">Perfil</a></li>
         </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
-      </div>
-      
-      <button type="button" class="btn btn-primary me-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">Toggle offcanvas</button>
-      <a id="popoverButton" class="text-success" href="#" role="button" data-bs-toggle="popover" title="Custom popover" data-bs-content="This is a Bootstrap popover.">Example popover</a>
-
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-          </div>
-          <div class="dropdown mt-3">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-              Dropdown button
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <hr class="col-1 my-5 mx-0">
-
-      <h2>Guides</h2>
-      <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
-      <ul class="icon-list">
-        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Bootstrap quick start guide</a></li>
-        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/webpack/">Bootstrap Webpack guide</a></li>
-        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/parcel/">Bootstrap Parcel guide</a></li>
-        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/vite/">Bootstrap Vite guide</a></li>
-        <li><a href="https://getbootstrap.com/docs/5.3/getting-started/contribute/">Contributing to Bootstrap</a></li>
-      </ul>
-
-      <hr class="mt-5 mb-4">
     </div>
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h3>Información de contacto</h3>
-            <p>Nombre de la aerolínea</p>
-            <p>Dirección de la aerolínea</p>
-            <p>Teléfono: +1 234 567 890</p>
-            <p>Email: info@aerolinea.com</p>
-          </div>
-          <div class="col-md-6">
-            <h3>¡Suscríbete a nuestro boletín!</h3>
-            <p>Recibe las últimas ofertas y noticias sobre vuelos.</p>
-            <form class="subscribe-form" action="#" method="post">
-              <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
-              <button type="submit">Suscribirse</button>
-            </form>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <p class="text-center">&copy; 2023 Nombre de la aerolínea. Todos los derechos reservados.</p>
+  </header>
+
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Main <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <main class="mt-5 mb-4">
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>Page 1 Calendar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <div id="booking" class="section">
+      <div class="section-center">
+        <div class=" container">
+          <div class="row">
+            <div class="col-md-7 col-md-push-5">
+              <div class="booking-cta">
+                <h1>Make your reservation</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur
+                  molestias itaque
+                  ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur
+                  cumque quasi.
+                  Perspiciatis.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 col-md-pull-7">
+              <div class="booking-form">
+                <form>
+                  <div class="form-group">
+                    <span class="form-label">Your Destination</span>
+                    <input class="form-control" type="text" placeholder="Enter a destination or hotel name">
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <span class="form-label">Check In</span>
+                        <input class="form-control" type="date" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="form-group">
+                        <span class="form-label">Check out</span>
+                        <input class="form-control" type="date" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <span class="form-label">Baggage</span>
+                        <select class="form-control">
+                          <option>1 Kg</option>
+                          <option>5 Kg </option>
+                          <option>+5 Kg</option>
+                        </select>
+                        <span class="select-arrow"></span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <span class="form-label">Adults</span>
+                        <select class="form-control">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        <span class="select-arrow"></span>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <span class="form-label">Children</span>
+                        <select class="form-control">
+                          <option>0</option>
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                        <span class="select-arrow"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-btn">
+                    <button class="submit-btn">Check availability</button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
     </div>
-  </body>
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <div>
+    </div>
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <div>
+    </div>
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <div>
+    </div>
+
+<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <div>
+    </div>
+
+  </main>
+
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <footer class="footer">
+    <hr>
+    <div class="container">
+
+      <div class="row text-center">
+        <div class="col-md-4">
+          <h3>Información de contacto</h3>
+          <p>Nombre de la aerolínea</p>
+          <p>Dirección de la aerolínea</p>
+          <p>Teléfono: +1 234 567 890</p>
+          <p>Email: info@aerolinea.com</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Redes sociales</h3>
+          <div class="row">
+            <p class="col">Twitter</p>
+            <p class="col">Instagram</p>
+            <p class="col">Facebook</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3>¡Suscríbete a nuestro boletín!</h3>
+          <p>Recibe las últimas ofertas y noticias sobre vuelos.</p>
+          <form class="subscribe-form" action="#" method="post">
+            <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+            <button type="submit">Suscribirse</button>
+          </form>
+        </div>
+
+      </div>
+      <div class="row my-3">
+        <div class="col-12">
+          <p class="text-center">&copy; 2023 Nombre de la aerolínea. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
