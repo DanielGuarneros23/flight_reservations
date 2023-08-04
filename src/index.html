@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap w/ Vite</title>
+  <title>Project</title>
   <link rel="stylesheet" href="scss/styles.scss">
   <link rel="stylesheet" href="scss/nav.scss">
   <link rel="stylesheet" href="scss/calendar.scss">
@@ -22,7 +22,78 @@
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="#">Divisa</a></li>
+          <li>
+            <select id="currencySelect" onchange="updateSelectedOption()">
+              <option disabled selected>Select currency</option>
+
+              <optgroup label="Most used">
+                <option value="MXN">Peso Mexicano</option>
+                <option value="EUR">Euro</option>
+                <option value="GPB">Libra esterlina</option>
+                <option value="USD">Dólar EE.UU</option>
+              </optgroup>
+
+              <optgroup label="All">              
+              <option value="AED">Dírham de los EAU</option>
+              <option value="ARS">Peso argentino</option>
+              <option value="AUD">Dólar australiano</option>
+              <option value="AZN">Manat azerbaiyano</option>
+              <option value="BGN">Lev búlgaro</option>
+              <option value="BHD">Dinar bareiní</option>
+              <option value="BRL">Real brasileño</option>
+              <option value="CAD">Dólar canadiense</option>
+              <option value="CHF">Franco suizo</option>
+              <option value="CLP">Peso chileno</option>
+              <option value="CNY">Yuan chino</option>
+              <option value="COP">Peso colombiano</option>
+              <option value="CZK">Corona checa</option>
+              <option value="DKK">Corona danesa</option>
+              <option value="DZD">Dinar argelino</option>
+              <option value="EGP">Libra egipcia</option>
+              <option value="EUR">Euro</option>
+              <option value="GBP">Libra esterlina</option>
+              <option value="HKD">Dólar de Hong Kong</option>
+              <option value="HRK">Kuna croata</option>
+              <option value="HUF">Florín húngaro</option>
+              <option value="IDR">Rupia indonesia</option>
+              <option value="ILS">Shequel israelí</option>
+              <option value="INR">Rupia india</option>
+              <option value="JOD">Dinar jordano</option>
+              <option value="JPY">Yen japonés</option>
+              <option value="KRW">Won surcoreano</option>
+              <option value="KWD">Dinar kuwaití</option>
+              <option value="KZT">Tenge kazajo</option>
+              <option value="LBP">Libra libanesa</option>
+              <option value="MAD">Dírham marroquí</option>
+              <option value="MDL">Leu moldavo</option>
+              <option value="MXN">Peso mexicano</option>
+              <option value="MYR">Ringgit malayo</option>
+              <option value="NGN">Naira nigeriano</option>
+              <option value="NOK">Corona noruega</option>
+              <option value="NZD">Dólar neozelandés</option>
+              <option value="OMR">Rial omaní</option>
+              <option value="PEN">Nuevo sol peruano</option>
+              <option value="PHP">Peso filipino</option>
+              <option value="PLN">Zloty polaco</option>
+              <option value="QAR">Riyal qatarí</option>
+              <option value="RON">Leu rumano</option>
+              <option value="RSD">Dinar serbio</option>
+              <option value="RUB">Rublo ruso</option>
+              <option value="SAR">Riyal saudí</option>
+              <option value="SEK">Corona sueca</option>
+              <option value="SGD">Dólar singapurense</option>
+              <option value="THB">Baht tailandés</option>
+              <option value="TND">Dinar tunecino</option>
+              <option value="TRY">Lira turca</option>
+              <option value="TWD">Dólar taiwanés</option>
+              <option value="UAH">Grivna ucraniana</option>
+              <option value="USD">Dólar EE. UU.</option>
+              <option value="UYU">Peso uruguayo</option>
+              <option value="VND">Dong vietnamita</option>
+              <option value="ZAR">Rand sudafricano</option>
+            </optgroup>
+            </select>
+          </li>
           <li><a class="nav-link scrollto" href="#">Idioma</a></li>
           <li><a class="nav-link scrollto" href="#">Notificaciones</a></li>
           <li><a class="nav-link scrollto" href="#">Perfil</a></li>
@@ -33,7 +104,7 @@
   </header>
 
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Main <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-  <main class="">
+  <main>
 
     <!-- >>>>>>>>>>>>>>>>>>>>>>>Page 1 Calendar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
     <div id="booking" class="section">
@@ -123,7 +194,7 @@
                   cumque quasi.
                   Perspiciatis.
                 </p>
-              </div>F
+              </div>
             </div>
           </div>
         </div>

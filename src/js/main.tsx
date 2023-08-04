@@ -1,5 +1,7 @@
+import { updateSelectedOption } from './navbar';
 import axios, { AxiosRequestConfig } from 'axios';
 import { autocomplete } from './autocomplete';
+
 
 interface Flight {
   arrivalAirport: {
@@ -55,5 +57,9 @@ function getFlights() {
 }
 
 getFlights();
+
+document.addEventListener('DOMContentLoaded', () => {
+  updateSelectedOption();
+});
 
 export {}
