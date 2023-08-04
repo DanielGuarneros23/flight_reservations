@@ -1,22 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Project</title>
+ <head>
   <link rel="stylesheet" href="scss/styles.scss">
   <link rel="stylesheet" href="scss/nav.scss">
   <link rel="stylesheet" href="scss/calendar.scss">
   <link rel="stylesheet" href="scss/footer.scss">
   <link rel="stylesheet" href="scss/icon-list.scss">
-  <!--<script type="module" src="./js/main.js"></script>-->
-  <script type="module" src="js/main.tsx"></script>
+  <title>Aerolina</title>
 </head>
-
 <body>
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Header <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-  <header id="header" class="fixed-top">
+
+  <header id="header" class="fixed-top" id="root">
     <div class="container d-flex align-items-center justify-content-between">
       <h1 class="logo"><a href="index.html">Tomate1Flyght</a></h1>
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -97,6 +95,10 @@
           <li><a class="nav-link scrollto" href="#">Idioma</a></li>
           <li><a class="nav-link scrollto" href="#">Notificaciones</a></li>
           <li><a class="nav-link scrollto" href="#">Perfil</a></li>
+          <li><a class="nav-link scrollto route" href="#" id="home">Divisa</a></li>
+          <li><a class="nav-link scrollto route" href="#" id="about">Idioma</a></li>
+          <li><a class="nav-link scrollto route" href="#" id="gallery">Notificaciones</a></li>
+          <li><a class="nav-link scrollto route" href="#" id="contact">Perfil</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -200,193 +202,224 @@
         </div>
       </div>
     </div>
-
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-    <div>
-    </div>
-
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-      <div id="traveler" class="section container">
+  <div class="pages" style="display: block">
+    <div class="page" id="page_home" style="display: block;">
+      <!--Inicia primer page -->
+      <div id="booking" class="section">
         <div class="section-center">
-          
-          <h3>Pasajero #</h3>
+          <div class=" container">
             <div class="row">
-              <div class="col-md-8">
-                <div class="traveler-form">
+              <div class="col-md-7 col-md-push-5">
+                <div class="booking-cta">
+                  <h1>Make your reservation</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur
+                    molestias itaque
+                    ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur
+                    cumque quasi.
+                    Perspiciatis.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 col-md-pull-7">
+                <div class="booking-form">
                   <form>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <span class="form-label">Nombre</span>
-                          <input class="form-control" type="text" id="departure" placeholder="Enter your name">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-
-                          <span class="form-label">Apellido</span>
-                          <input class="form-control" type="text" id="destination" placeholder="Enter your last name">
-                        </div>
-                      </div>
+                    <div class="form-group">
+                      <span class="form-label">Your Destination</span>
+                      <input class="form-control" type="text" placeholder="Enter a destination or hotel name">
                     </div>
-
-                    <div id="departure-suggestions"></div>
-                    <div id="destination-suggestions"></div>
-
                     <div class="row">
-                      <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="col-sm-6">
                         <div class="form-group">
-                          <span class="form-label">Sexo</span>
-                          <select class="form-control">
-                            <option>Seleccionar</option>
-                            <option>Hombre</option>
-                            <option>Mujer</option>
-                            <option>No binario</option>
-                            <option>Prefiero no responder</option>
-                          </select>
-                          <span class="select-arrow"></span>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="form-group">
-                          <span class="form-label">Fecha de Nacimiento</span>
+                          <span class="form-label">Check In</span>
                           <input class="form-control" type="date" required>
                         </div>
                       </div>
-                      <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="col-sm-6">
                         <div class="form-group">
-                          <span class="form-label">País de Recidencia</span>
+                          <span class="form-label">Check out</span>
+                          <input class="form-control" type="date" required>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="form-group">
+                          <span class="form-label">Baggage</span>
                           <select class="form-control">
-                            <option>Seleccionar</option>
-                            <option>México</option>
-                            <option>Estados Unidos</option>
-                            <option>Colombia</option>
-                            <option>Canada</option>
-                            <option>Guatemala</option>
+                            <option>1 Kg</option>
+                            <option>5 Kg </option>
+                            <option>+5 Kg</option>
+                          </select>
+                          <span class="select-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="form-group">
+                          <span class="form-label">Adults</span>
+                          <select class="form-control">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                          <span class="select-arrow"></span>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="form-group">
+                          <span class="form-label">Children</span>
+                          <select class="form-control">
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
                           </select>
                           <span class="select-arrow"></span>
                         </div>
                       </div>
                     </div>
                     <div class="form-btn">
-                      <button class="submit-btn">Submit</button>
+                      <button class="submit-btn">Check availability</button>
                     </div>
                   </form>
                 </div>
               </div>
             </div>
-            <h3 class="mt-5">Datos de Contacto</h3>
-            <div class="row">
-              <div class="col-md-8">
-                <div class="traveler-form">
-                  <form>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <span class="form-label">Nombre</span>
-                          <input class="form-control" type="text" id="departure" placeholder="Enter your name">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-
-                          <span class="form-label">Apellido</span>
-                          <input class="form-control" type="text" id="destination" placeholder="Enter your last name">
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div id="departure-suggestions"></div>
-                    <div id="destination-suggestions"></div>
-
-                    <div class="row">
-                      <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="form-group">
-                          <span class="form-label">Sexo</span>
-                          <select class="form-control">
-                            <option>Seleccionar</option>
-                            <option>Hombre</option>
-                            <option>Mujer</option>
-                            <option>No binario</option>
-                            <option>Prefiero no responder</option>
-                          </select>
-                          <span class="select-arrow"></span>
-                        </div>
-                      </div>
-
-                      <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="form-group">
-                          <span class="form-label">Correo Electronico</span>
-                          <input class="form-control" type="email" placeholder="Ingresa tu correo" required>
-                        </div>
-                      </div>
-                      <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="form-group">
-                          <span class="form-label">Numero Teléfonico</span>
-                          <input class="form-control" type="number" placeholder="ingresa tu numero" required>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-btn">
-                      <button class="submit-btn">Submit</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-    <div>
-    </div>
-
-    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-    <div>
-    </div>
-
-  </main>
-
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-  <footer class="footer">
-    <hr>
-    <div class="container">
-
-      <div class="row text-center">
-        <div class="col-md-4">
-          <h3>Información de contacto</h3>
-          <p>Nombre de la aerolínea</p>
-          <p>Dirección de la aerolínea</p>
-          <p>Teléfono: +1 234 567 890</p>
-          <p>Email: info@aerolinea.com</p>
-        </div>
-        <div class="col-md-4">
-          <h3>Redes sociales</h3>
-          <div class="row">
-            <p class="col">Twitter</p>
-            <p class="col">Instagram</p>
-            <p class="col">Facebook</p>
           </div>
         </div>
-        <div class="col-md-4">
-          <h3>¡Suscríbete a nuestro boletín!</h3>
-          <p>Recibe las últimas ofertas y noticias sobre vuelos.</p>
-          <form class="subscribe-form" action="#" method="post">
-            <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
-            <button type="submit">Suscribirse</button>
-          </form>
-        </div>
+      </div>
+    </div>  <!--Finaliza primera page-->
+    <!--Inicia segunda page-->
+    <div class="page" id="page_about" style="display: none;">
+      <div id="booking" class="section">
+        <div class="section-center">
+          <div class=" container">
+            <div class="col">
+                <!--Seccion banner-->
 
-      </div>
-      <div class="row my-3">
-        <div class="col-12">
-          <p class="text-center">&copy; 2023 Nombre de la aerolínea. Todos los derechos reservados.</p>
+                <!--Finaliza banner-->
+            </div>
+          </div>
         </div>
-      </div>
+      </div>    
     </div>
-  </footer>
-</body>
+    <!--Finaliza segunda page-->
+    <div class="page" id="page_gallery" style="display: none;">
+      <h1>Content gallery...</h1>
+      <button onclick="myclass.clicked()">click</button>
+    </div>
+    <div class="page" id="page_contact" style="display: none;">
+      <h1>Content contact...</h1>
+      <button onclick="myclass.clicked()">click</button>
+    </div>
+    <div class="page" id="page_help" style="display: none;">
+      <h1>Content help...</h1>
+      <button onclick="myclass.clicked()">click</button>
+    </div>
+  </div>
 
-</html>
+<script>
+
+
+
+
+
+class homeClass {
+  clicked() {
+    console.log("clicked on home class");
+    state.producto = "Tv 65 in.";
+    console.log("Producto:" + state.producto);
+  }
+}
+class aboutClass {
+  clicked() {
+    console.log("clicked on about class");
+  }
+}
+class galleryClass {
+  clicked() {
+    console.log("clicked on gallery class");
+  }
+}
+class contactClass {
+  clicked() {
+    console.log("clicked on contact class");
+    state.producto = null;
+    console.log("Producto:" + state.producto);
+  }
+}
+class helpClass {
+  clicked() {
+    console.log("clicked on help class");
+    console.log("Producto:" + state.producto);
+  }
+}
+
+function select_tab(id) {
+  document.querySelectorAll(".route").forEach((item) => item.classList.remove("selected"));
+  document.querySelectorAll("#" + id).forEach((item) => item.classList.add("selected"));
+}
+
+function push(event) {
+  let id = event.target.id;
+  select_tab(id);
+  document.title = id;
+  loadContent(id);
+  window.history.pushState({ id }, `${id}`, `/page/${id}`);
+}
+
+window.onload = (event) => {
+  window["home"].addEventListener("click", (event) => push(event));
+  window["about"].addEventListener("click", (event) => push(event));
+  window["gallery"].addEventListener("click", (event) => push(event));
+  window["contact"].addEventListener("click", (event) => push(event));
+};
+
+window.addEventListener("popstate", (event) => {
+  let stateId = event.state.id;
+  console.log("stateId = ", stateId);
+  select_tab(stateId);
+  loadContent(id);
+});
+
+function loadContent(id) {
+  document.querySelectorAll(".pages .page").forEach((item) => (item.style.display = "none"));
+  document.querySelector("#page_" + id).style.display = "block";
+
+  switch (id) {
+    case "home":
+      myclass = new homeClass();
+      break;
+    case "about":
+      myclass = new aboutClass();
+      break;
+    case "gallery":
+      myclass = new galleryClass();
+      break;
+    case "contact":
+      myclass = new contactClass();
+      break;
+    case "help":
+      myclass = new helpClass();
+      break;
+  }
+}
+class state {
+  state = {};
+
+  get(prop){
+    return state[prop];
+  }
+
+  set(prop, value){
+    state[prop] = value;
+  }
+}
+loadContent("home");
+
+</script>
+
+
+</body></html>
