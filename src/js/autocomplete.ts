@@ -5,7 +5,7 @@ function autocomplete(input: HTMLInputElement, suggestionsContainer: HTMLElement
       const userInput = input.value.toLowerCase();
   
       // Realizar la solicitud AJAX para obtener las ciudades disponibles desde el archivo JSON
-      fetch("./cities.json")
+      fetch("./")
         .then(response => response.json())
         .then((cities: { name: string }[]) => {
           // Filtrar las ciudades que coinciden con la entrada del usuario
