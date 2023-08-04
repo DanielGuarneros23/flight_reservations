@@ -1,4 +1,4 @@
-export function autocomplete(input: HTMLInputElement, suggestionsContainer: HTMLElement) {
+function autocomplete(input: HTMLInputElement, suggestionsContainer: HTMLElement) {
     // Función para realizar el autocompletado en el campo de entrada
 function autocomplete(input: HTMLInputElement, suggestionsContainer: HTMLElement) {
     input.addEventListener("input", function () {
@@ -36,3 +36,4 @@ function autocomplete(input: HTMLInputElement, suggestionsContainer: HTMLElement
     autocomplete(destinationInput as HTMLInputElement, destinationSuggestionsContainer);
   });
   
+  export {}

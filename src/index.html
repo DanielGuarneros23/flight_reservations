@@ -10,8 +10,10 @@
   <link rel="stylesheet" href="scss/calendar.scss">
   <link rel="stylesheet" href="scss/footer.scss">
   <link rel="stylesheet" href="scss/icon-list.scss">
-  <!--<script type="module" src="./js/main.js"></script>-->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="scss/flightsavailable.scss">
   <script type="module" src="js/main.tsx"></script>
+  <!-- <script type="module" src="js/flightsavailable.ts"></script> -->
 </head>
 
 <body>
@@ -103,8 +105,8 @@
     </div>
   </header>
   <!-- >>>>>>>>>>>>>>>>>>>>>>>Page 1 Calendar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-  <div class="pages" >
-    <div class="page" id="page_home" >
+  <div class="pages">
+    <div class="page" id="page_home">
       <!--Inicia page 1-->
       <div id="booking" class="section">
         <div class="section-center">
@@ -200,10 +202,31 @@
       <!--Finaliza 1 page-->
     </div>
 
+    <div class="page banner" id="page_contact">
+      <h1>Abre las alas</h1>
+    </div>
+    <div class="flight-cards" id="flight-cards">
+      <!-- <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Título de la tarjeta</h5>
+              <p class="card-text">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción
+                natural a contenido adicional. Este contenido es un poco más largo.</p>
+              <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
     <div>
       <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-      <div class="pages" >
-        <div class="page" id="page_about" >
+      <div class="pages">
+        <div class="page" id="page_about">
           <!--Inicia segundo page-->
           <div id="traveler" class="">
             <div class="container">
@@ -354,10 +377,10 @@
           </div>
         </div>
 
-        <div class="page" id="page_contact" style="display: none;">
+        <!-- <div class="page" id="page_contact" style="display: none;">
           <h1>Content contact...</h1>
           <button onclick="myclass.clicked()">click</button>
-        </div>
+        </div> -->
 
         <div class="page" id="page_help" style="display: none;">
           <h1>Content help...</h1>
@@ -494,12 +517,12 @@
       this.state[prop] = value;
     }
   }
-const mystate= new state();
-  
+  const mystate = new state();
+
   loadContent("home");
 </script>
-<script src="./js/main.tsx"></script>
-<script src="./js/autocomplete.ts"></script>
-<script src="./js/navbar.ts"></script>
+<!-- <script src="./js/main.tsx"></script> -->
+<!-- <script src="./js/autocomplete.ts"></script>
+<script src="./js/navbar.ts"></script> -->
 
 </html>

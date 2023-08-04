@@ -4,5 +4,4 @@ function updateSelectedOption() {
     selectedOption.text = selectedOption.value; // Mostrar solo el código de la divisa
   }
   
-  export { updateSelectedOption };
-  
+  export {}

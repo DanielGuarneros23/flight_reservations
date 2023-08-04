@@ -12,7 +12,7 @@
   
   <!--<script type="module" src="./js/main.js"></script>-->
   
-  <script type="module" crossorigin src="/assets/index-07e30c4c.js"></script>
+  <script type="module" crossorigin src="/assets/index-2371d359.js"></script>
   <link rel="stylesheet" href="/assets/index-d25f961a.css">
 </head>
 
@@ -28,7 +28,7 @@
               <option disabled selected>Select currency</option>
 
               <optgroup label="Most used">
-                <option value="MXN">Peso Mexicano</option>
+                <option value="MXN"></option>
                 <option value="EUR">Euro</option>
                 <option value="GPB">Libra esterlina</option>
                 <option value="USD">Dólar EE.UU</option>
@@ -95,8 +95,9 @@
               </optgroup>
             </select>
           </li>
-          <li><a class="nav-link scrollto route" href="#" id="home">Page 1</a></li>
-          <li><a class="nav-link scrollto route" href="#" id="about">Page 2</a></li>
+          <li><a class="nav-link scrollto route" href="#" id="home">Home</a></li>
+          <li><a class="nav-link scrollto route" href="#" id="flights">Flights Available</a></li>
+          <li><a class="nav-link scrollto route" href="#" id="about">Details</a></li>
           <li><a class="nav-link scrollto route" href="#" id="gallery">Page 3</a></li>
           <li><a class="nav-link scrollto route" href="#" id="contact">Page 4</a></li>
         </ul>
@@ -105,8 +106,8 @@
     </div>
   </header>
   <!-- >>>>>>>>>>>>>>>>>>>>>>>Page 1 Calendar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-  <div class="pages" style="display: block">
-    <div class="page" id="page_home" style="display: block;">
+  <div class="pages" >
+    <div class="page" id="page_home" >
       <!--Inicia page 1-->
       <div id="booking" class="section">
         <div class="section-center">
@@ -179,7 +180,7 @@
                       </div>
                     </div>
                     <div class="form-btn">
-                      <button class="submit-btn">Check availability</button>
+                      <button class="submit-btn" onclick="myclass.clicked()">Check availability</button>
                     </div>
                   </form>
                 </div>
@@ -202,10 +203,18 @@
       <!--Finaliza 1 page-->
     </div>
 
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>Page 2 flight available <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+    <div class="banner" id="flights">
+      <h1 class="texto">ABRE LAS ALAS</h1>
+    </div>
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>Page 2 end <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
     <div>
       <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-      <div class="pages" style="display: block">
-        <div class="page" id="page_about" style="display: block;">
+      <div class="pages" >
+        <div class="page" id="page_about" >
           <!--Inicia segundo page-->
           <div id="traveler" class="">
             <div class="container">
@@ -407,8 +416,8 @@
   class homeClass {
     clicked() {
       console.log("clicked on home class");
-      state.producto = "Tv 65 in.";
-      console.log("Producto:" + state.producto);
+      mystate.set("producto", "Tv 65 in.");
+      console.log("Producto:" + mystate.get("producto"));
     }
   }
   class aboutClass {
@@ -450,6 +459,7 @@
 
   window.onload = (event) => {
     window["home"].addEventListener("click", (event) => push(event));
+    window["flights"].addEventListener("click", (event) => push(event));
     window["about"].addEventListener("click", (event) => push(event));
     window["gallery"].addEventListener("click", (event) => push(event));
     window["contact"].addEventListener("click", (event) => push(event));
@@ -489,14 +499,15 @@
     state = {};
 
     get(prop) {
-      return state[prop];
+      return this.state[prop];
     }
 
     set(prop, value) {
-      state[prop] = value;
+      this.state[prop] = value;
     }
   }
-
+const mystate= new state();
+  
   loadContent("home");
 </script>
 <script src="./js/main.tsx"></script>
