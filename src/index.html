@@ -95,7 +95,7 @@
           </li>
           <li><a class="nav-link scrollto route" href="#" id="home">Page 1</a></li>
           <li><a class="nav-link scrollto route" href="#" id="about">Page 2</a></li>
-          <li><a class="nav-link scrollto route" href="#" id="gallery">Page 3</a></li>
+          <li><a class="nav-link scrollto route" href="#" id="form">Page 3</a></li>
           <li><a class="nav-link scrollto route" href="#" id="contact">Page 4</a></li>
           <li><a class="nav-link scrollto route" href="#" id="ticket">Page 5</a></li>
         </ul>
@@ -208,6 +208,7 @@
   <div class="pages">
     <div class="page" id="page_about">
       <h1>PAGE 2</h1>
+      <button onclick="myclass.clicked()">click</button>
     </div>
   </div>
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
@@ -215,7 +216,7 @@
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
   <!--Inicia el tercer page-->
   <div class="pages">
-    <div class="page" id="page_gallery">
+    <div class="page" id="page_form">
       <div id="traveler" class="">
         <div class="container">
           <h1>Mi reserva</h1>
@@ -242,23 +243,23 @@
                     <div class="col-md-6">
                       <div class="form-group">
                         <span class="form-label">Nombre</span>
-                        <input class="form-control" type="text" id="departure" placeholder="Enter your name">
+                        <input class="form-control" type="text" id="name1" placeholder="Enter your name">
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
                         <span class="form-label">Apellido</span>
-                        <input class="form-control" type="text" id="destination" placeholder="Enter your last name">
+                        <input class="form-control" type="text" id="lastname1" placeholder="Enter your last name">
                       </div>
                     </div>
                   </div>
-                  <div id="departure-suggestions"></div>
-                  <div id="destination-suggestions"></div>
+                  <!-- <div id="departure-suggestions"></div> -->
+                  <!-- <div id="destination-suggestions"></div> -->
                   <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4">
                       <div class="form-group">
                         <span class="form-label">Sexo</span>
-                        <select class="form-control">
+                        <select class="form-control" id="gender1">
                           <option>Seleccionar</option>
                           <option>Hombre</option>
                           <option>Mujer</option>
@@ -271,13 +272,13 @@
                     <div class="col-sm-12 col-md-4 col-lg-4">
                       <div class="form-group">
                         <span class="form-label">Fecha de Nacimiento</span>
-                        <input class="form-control" type="date" required>
+                        <input class="form-control" type="date" id="birthDate1" required>
                       </div>
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-4">
                       <div class="form-group">
                         <span class="form-label">País de Recidencia</span>
-                        <select class="form-control">
+                        <select class="form-control" id="country1">
                           <option>Seleccionar</option>
                           <option>México</option>
                           <option>Estados Unidos</option>
@@ -289,15 +290,29 @@
                       </div>
                     </div>
                   </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Correo Electronico</span>
+                        <input class="form-control" id="email1" type="email" placeholder="Ingresa tu correo" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Numero Teléfonico</span>
+                        <input class="form-control" id="phoneNumber1" type="number" placeholder="ingresa tu numero" required>
+                      </div>
+                    </div>
+                  </div>
                   <div class="form-btn">
-                    <button class="submit-btn">Submit</button>
+                    <button class="submit-btn" onclick="myclass.clicked()">Submit</button>
                   </div>
                 </form>
               </div>
             </div>
           </div>
 
-          <div class="row my-5">
+          <!-- <div class="row my-5">
             <div class="col-md-8">
               <div class="traveler-form">
                 <form>
@@ -358,9 +373,9 @@
                 </form>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
-    </div>
+    </div> 
   </div>
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
@@ -377,6 +392,7 @@
   <div class="pages">
     <div class="page" id="page_ticket">
       <h1>Page 5</h1>
+      <button onclick="myclass.clicked()">click</button>
     </div>
   </div>
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
@@ -431,9 +447,29 @@
       console.log("clicked on about class");
     }
   }
-  class galleryClass {
-    clicked() {
-      console.log("clicked on gallery class");
+  class formClass {
+    
+    clicked() {    
+      let nombre = document.getElementById("name1");
+      let apellido = document.getElementById("lastname1");
+      let sexo = document.getElementById("gender1");
+      let fechaNacimiento = document.getElementById("birthDate1");
+      let paisR = document.getElementById("country1");
+      let correo = document.getElementById("email1");
+      let telefono = document.getElementById("phoneNumber1");
+
+      const dataP = {
+        nombreP: nombre,
+        apellidoP: apellido,
+        sexoP: sexo,
+        fechaNacimientoP: fechaNacimiento,
+        paisRP: paisR,
+        correoP: correo,
+        telefonoP: telefono}  
+      mystate.set("NOMBRE", nombreP);
+      console.log("clicked on form class");
+      console.log(mystate.get("NOMBRE"));
+      console.log("datos");
     }
   }
   class contactClass {
@@ -466,7 +502,7 @@
   window.onload = (event) => {
     window["home"].addEventListener("click", (event) => push(event));
     window["about"].addEventListener("click", (event) => push(event));
-    window["gallery"].addEventListener("click", (event) => push(event));
+    window["form"].addEventListener("click", (event) => push(event));
     window["contact"].addEventListener("click", (event) => push(event));
     window["ticket"].addEventListener("click", (event) => push(event));
   };
@@ -489,8 +525,8 @@
       case "about":
         myclass = new aboutClass();
         break;
-      case "gallery":
-        myclass = new galleryClass();
+      case "form":
+        myclass = new formClass();
         break;
       case "contact":
         myclass = new contactClass();
@@ -513,6 +549,7 @@
     }
   }
   const mystate = new state();
+  const datos = new state();
 
   loadContent("home");
 </script>

@@ -12,7 +12,7 @@
   
   <!--<script type="module" src="./js/main.js"></script>-->
   
-  <script type="module" crossorigin src="/assets/index-07e30c4c.js"></script>
+  <script type="module" crossorigin src="/assets/index-2371d359.js"></script>
   <link rel="stylesheet" href="/assets/index-d25f961a.css">
 </head>
 
@@ -28,7 +28,7 @@
               <option disabled selected>Select currency</option>
 
               <optgroup label="Most used">
-                <option value="MXN">Peso Mexicano</option>
+                <option value="MXN"></option>
                 <option value="EUR">Euro</option>
                 <option value="GPB">Libra esterlina</option>
                 <option value="USD">Dólar EE.UU</option>
@@ -99,15 +99,16 @@
           <li><a class="nav-link scrollto route" href="#" id="about">Page 2</a></li>
           <li><a class="nav-link scrollto route" href="#" id="gallery">Page 3</a></li>
           <li><a class="nav-link scrollto route" href="#" id="contact">Page 4</a></li>
+          <li><a class="nav-link scrollto route" href="#" id="ticket">Page 5</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
     </div>
   </header>
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>Page 1 Calendar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-  <div class="pages" style="display: block">
-    <div class="page" id="page_home" style="display: block;">
-      <!--Inicia page 1-->
+
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <div class="pages">
+    <div class="page" id="page_home">
       <div id="booking" class="section">
         <div class="section-center">
           <div class="container">
@@ -179,7 +180,7 @@
                       </div>
                     </div>
                     <div class="form-btn">
-                      <button class="submit-btn">Check availability</button>
+                      <button class="submit-btn" onclick="myclass.clicked()">Check availability</button>
                     </div>
                   </form>
                 </div>
@@ -201,214 +202,230 @@
       </div>
       <!--Finaliza 1 page-->
     </div>
+  </div>
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-    <div>
-      <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-      <div class="pages" style="display: block">
-        <div class="page" id="page_about" style="display: block;">
-          <!--Inicia segundo page-->
-          <div id="traveler" class="">
-            <div class="container">
-              <h1>Mi reserva</h1>
-              <div class="row">
-                <div class="col-md-6 offset-md-3">
-                  <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
-                </div>
-              </div>
-              <div class="row my-3">
-                <div class="col-sm-1">
-                  <i class="bi bi-info-circle"></i>
-                </div>
-                <div class="col-sm-11">
-                  <h3>¿Quienes viajan?</h3>
-                </div>
-              </div>
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <!--Inicia segundo page-->
+  <div class="pages">
+    <div class="page" id="page_about">
+      <h1>PAGE 2</h1>
+    </div>
+  </div>
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-              <div class="row mt-5">
-                <div class="col-md-8">
-                  <div class="traveler-form">
-                    <form>
-                      <h3>Pasajero #</h3>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            <span class="form-label">Nombre</span>
-                            <input class="form-control" type="text" id="departure" placeholder="Enter your name">
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            <span class="form-label">Apellido</span>
-                            <input class="form-control" type="text" id="destination" placeholder="Enter your last name">
-                          </div>
-                        </div>
-                      </div>
-                      <div id="departure-suggestions"></div>
-                      <div id="destination-suggestions"></div>
-                      <div class="row">
-                        <div class="col-sm-12 col-md-4 col-lg-4">
-                          <div class="form-group">
-                            <span class="form-label">Sexo</span>
-                            <select class="form-control">
-                              <option>Seleccionar</option>
-                              <option>Hombre</option>
-                              <option>Mujer</option>
-                              <option>No binario</option>
-                              <option>Prefiero no responder</option>
-                            </select>
-                            <span class="select-arrow"></span>
-                          </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4">
-                          <div class="form-group">
-                            <span class="form-label">Fecha de Nacimiento</span>
-                            <input class="form-control" type="date" required>
-                          </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4">
-                          <div class="form-group">
-                            <span class="form-label">País de Recidencia</span>
-                            <select class="form-control">
-                              <option>Seleccionar</option>
-                              <option>México</option>
-                              <option>Estados Unidos</option>
-                              <option>Colombia</option>
-                              <option>Canada</option>
-                              <option>Guatemala</option>
-                            </select>
-                            <span class="select-arrow"></span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-btn">
-                        <button class="submit-btn">Submit</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row my-5">
-                <div class="col-md-8">
-                  <div class="traveler-form">
-                    <form>
-                      <div class="row">
-                        <div class="col-sm-1">
-                          <i class="bi bi-person-circle"></i>
-                        </div>
-                        <div class="col-sm-11">
-                          <h3>Datos de Contacto</h3>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            <span class="form-label">Nombre</span>
-                            <input class="form-control" type="text" id="departure" placeholder="Enter your name">
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group">
-                            <span class="form-label">Apellido</span>
-                            <input class="form-control" type="text" id="destination" placeholder="Enter your last name">
-                          </div>
-                        </div>
-                      </div>
-                      <div id="departure-suggestions"></div>
-                      <div id="destination-suggestions"></div>
-                      <div class="row">
-                        <div class="col-sm-12 col-md-4 col-lg-4">
-                          <div class="form-group">
-                            <span class="form-label">Sexo</span>
-                            <select class="form-control">
-                              <option>Seleccionar</option>
-                              <option>Hombre</option>
-                              <option>Mujer</option>
-                              <option>No binario</option>
-                              <option>Prefiero no responder</option>
-                            </select>
-                            <span class="select-arrow"></span>
-                          </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4">
-                          <div class="form-group">
-                            <span class="form-label">Correo Electronico</span>
-                            <input class="form-control" type="email" placeholder="Ingresa tu correo" required>
-                          </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4">
-                          <div class="form-group">
-                            <span class="form-label">Numero Teléfonico</span>
-                            <input class="form-control" type="number" placeholder="ingresa tu numero" required>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-btn">
-                        <button class="submit-btn">Submit</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <!--Inicia el tercer page-->
+  <div class="pages">
+    <div class="page" id="page_gallery">
+      <div id="traveler" class="">
+        <div class="container">
+          <h1>Mi reserva</h1>
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
             </div>
-            <!--Finaliza segundo page-->
+          </div>
+          <div class="row my-3">
+            <div class="col-sm-1">
+              <i class="bi bi-info-circle"></i>
+            </div>
+            <div class="col-sm-11">
+              <h3>¿Quienes viajan?</h3>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-md-8">
+              <div class="traveler-form">
+                <form>
+                  <h3>Pasajero #</h3>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <span class="form-label">Nombre</span>
+                        <input class="form-control" type="text" id="departure" placeholder="Enter your name">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <span class="form-label">Apellido</span>
+                        <input class="form-control" type="text" id="destination" placeholder="Enter your last name">
+                      </div>
+                    </div>
+                  </div>
+                  <div id="departure-suggestions"></div>
+                  <div id="destination-suggestions"></div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Sexo</span>
+                        <select class="form-control">
+                          <option>Seleccionar</option>
+                          <option>Hombre</option>
+                          <option>Mujer</option>
+                          <option>No binario</option>
+                          <option>Prefiero no responder</option>
+                        </select>
+                        <span class="select-arrow"></span>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Fecha de Nacimiento</span>
+                        <input class="form-control" type="date" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">País de Recidencia</span>
+                        <select class="form-control">
+                          <option>Seleccionar</option>
+                          <option>México</option>
+                          <option>Estados Unidos</option>
+                          <option>Colombia</option>
+                          <option>Canada</option>
+                          <option>Guatemala</option>
+                        </select>
+                        <span class="select-arrow"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-btn">
+                    <button class="submit-btn">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="row my-5">
+            <div class="col-md-8">
+              <div class="traveler-form">
+                <form>
+                  <div class="row">
+                    <div class="col-sm-1">
+                      <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div class="col-sm-11">
+                      <h3>Datos de Contacto</h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <span class="form-label">Nombre</span>
+                        <input class="form-control" type="text" id="departure" placeholder="Enter your name">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <span class="form-label">Apellido</span>
+                        <input class="form-control" type="text" id="destination" placeholder="Enter your last name">
+                      </div>
+                    </div>
+                  </div>
+                  <div id="departure-suggestions"></div>
+                  <div id="destination-suggestions"></div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Sexo</span>
+                        <select class="form-control">
+                          <option>Seleccionar</option>
+                          <option>Hombre</option>
+                          <option>Mujer</option>
+                          <option>No binario</option>
+                          <option>Prefiero no responder</option>
+                        </select>
+                        <span class="select-arrow"></span>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Correo Electronico</span>
+                        <input class="form-control" type="email" placeholder="Ingresa tu correo" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Numero Teléfonico</span>
+                        <input class="form-control" type="number" placeholder="ingresa tu numero" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-btn">
+                    <button class="submit-btn">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
+    </div>
+  </div>
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-        <div class="page" id="page_contact" style="display: none;">
-          <h1>Content contact...</h1>
-          <button onclick="myclass.clicked()">click</button>
-        </div>
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <div class="pages">
+  <div class="page" id="page_contact">
+    <h1>Page4</h1>
+    <button onclick="myclass.clicked()">click</button>
+  </div>
+  </div>
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-        <div class="page" id="page_help" style="display: none;">
-          <h1>Content help...</h1>
-          <button onclick="myclass.clicked()">click</button>
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <div class="pages">
+    <div class="page" id="page_ticket">
+      <h1>Page 5</h1>
+    </div>
+  </div>
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <footer class="container footer ">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <h3>Información de contacto</h3>
+        <p>Nombre de la aerolínea</p>
+        <p>Dirección de la aerolínea</p>
+        <p>Teléfono: +1 234 567 890</p>
+        <p>Email: info@aerolinea.com</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Redes sociales</h3>
+        <div class="row">
+          <p class="col">Twitter</p>
+          <p class="col">Instagram</p>
+          <p class="col">Facebook</p>
         </div>
       </div>
+      <div class="col-md-4">
+        <h3>¡Suscríbete a nuestro boletín!</h3>
+        <p>Recibe las últimas ofertas y noticias sobre vuelos.</p>
+        <form class="subscribe-form" action="#" method="post">
+          <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+          <button type="submit">Suscribirse</button>
+        </form>
+      </div>
 
-      <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-      <footer class="container footer ">
-        <div class="row text-center">
-          <div class="col-md-4">
-            <h3>Información de contacto</h3>
-            <p>Nombre de la aerolínea</p>
-            <p>Dirección de la aerolínea</p>
-            <p>Teléfono: +1 234 567 890</p>
-            <p>Email: info@aerolinea.com</p>
-          </div>
-          <div class="col-md-4">
-            <h3>Redes sociales</h3>
-            <div class="row">
-              <p class="col">Twitter</p>
-              <p class="col">Instagram</p>
-              <p class="col">Facebook</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <h3>¡Suscríbete a nuestro boletín!</h3>
-            <p>Recibe las últimas ofertas y noticias sobre vuelos.</p>
-            <form class="subscribe-form" action="#" method="post">
-              <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
-              <button type="submit">Suscribirse</button>
-            </form>
-          </div>
-
-        </div>
-        <div class="row my-3">
-          <div class="col-12">
-            <p class="text-center">&copy; 2023 Nombre de la aerolínea. Todos los derechos reservados.</p>
-          </div>
-        </div>
-      </footer>
+    </div>
+    <div class="row my-3">
+      <div class="col-12">
+        <p class="text-center">&copy; 2023 Nombre de la aerolínea. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 <script>
   class homeClass {
     clicked() {
       console.log("clicked on home class");
-      state.producto = "Tv 65 in.";
-      console.log("Producto:" + state.producto);
+      mystate.set("producto", "Tv 65 in.");
+      console.log("Producto:" + mystate.get("producto"));
     }
   }
   class aboutClass {
@@ -428,9 +445,9 @@
       console.log("Producto:" + state.producto);
     }
   }
-  class helpClass {
+  class ticketClass {
     clicked() {
-      console.log("clicked on help class");
+      console.log("clicked on ticket class");
       console.log("Producto:" + state.producto);
     }
   }
@@ -453,6 +470,7 @@
     window["about"].addEventListener("click", (event) => push(event));
     window["gallery"].addEventListener("click", (event) => push(event));
     window["contact"].addEventListener("click", (event) => push(event));
+    window["ticket"].addEventListener("click", (event) => push(event));
   };
 
   window.addEventListener("popstate", (event) => {
@@ -479,8 +497,8 @@
       case "contact":
         myclass = new contactClass();
         break;
-      case "help":
-        myclass = new helpClass();
+      case "ticket":
+        myclass = new ticketClass();
         break;
     }
   }
@@ -489,13 +507,14 @@
     state = {};
 
     get(prop) {
-      return state[prop];
+      return this.state[prop];
     }
 
     set(prop, value) {
-      state[prop] = value;
+      this.state[prop] = value;
     }
   }
+  const mystate = new state();
 
   loadContent("home");
 </script>
