@@ -19,7 +19,7 @@ interface ApiResponse {
 
 const options: AxiosRequestConfig = {
   method: 'GET',
-  url: 'https://flight-fare-search.p.rapidapi.com/v2/flights/',
+  url: './vuelos.JSON',
   params: {
     from: 'MEX',
     to: 'ACA',
