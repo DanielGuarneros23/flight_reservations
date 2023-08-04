@@ -1,0 +1,4459 @@
+{
+  "status": 200,
+  "searchData": {
+    "from": "MEX",
+    "to": "ACA",
+    "date": "2023-08-12",
+    "type": "Economy",
+    "adult": 1,
+    "child": 0,
+    "infant": 0,
+    "currency": "MXN"
+  },
+  "results": [
+    {
+      "id": "1a53051cafbc6cca001e46ea1bd94886ea82a94ce126f0450ca9ee60f9841abf",
+      "careerCode": "AM",
+      "flight_code": "AM-300",
+      "flight_name": "Aeromexico",
+      "stops": "Direct",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": null
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T07:00:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-12T08:13:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "AM-300"
+      ],
+      "duration": {
+        "text": "01h 13m",
+        "value": 73
+      },
+      "stopSummary": {},
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 1640.8799999999999,
+        "tax": 774.86,
+        "base": 866.02
+      }
+    },
+    {
+      "id": "590b58e70504a6a4f64d6d2368fbfb0eaca31b37b34412f63183e3612dd78087",
+      "careerCode": "AM",
+      "flight_code": "AM-1374",
+      "flight_name": "Aeromexico",
+      "stops": "Direct",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": null
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T15:00:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-12T16:13:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "AM-1374"
+      ],
+      "duration": {
+        "text": "01h 13m",
+        "value": 73
+      },
+      "stopSummary": {},
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 1640.8799999999999,
+        "tax": 774.86,
+        "base": 866.02
+      }
+    },
+    {
+      "id": "f49cf989694b4ffb2a2bc34c1c05cf1e47fc8ac6495a3be8d236b666d8bd3efe",
+      "careerCode": "AM",
+      "flight_code": "AM-308",
+      "flight_name": "Aeromexico",
+      "stops": "Direct",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": null
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T17:55:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-12T19:08:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "AM-308"
+      ],
+      "duration": {
+        "text": "01h 13m",
+        "value": 73
+      },
+      "stopSummary": {},
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 1640.8799999999999,
+        "tax": 774.86,
+        "base": 866.02
+      }
+    },
+    {
+      "id": "e6f91643cae706241932310613dab3a992061e96e4219edcd87644e0f5548d73",
+      "careerCode": "AM",
+      "flight_code": "AM-302",
+      "flight_name": "Aeromexico",
+      "stops": "Direct",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": null
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T11:45:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-12T12:50:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "AM-302"
+      ],
+      "duration": {
+        "text": "01h 05m",
+        "value": 65
+      },
+      "stopSummary": {},
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 1686.46,
+        "tax": 774.86,
+        "base": 911.5999999999999
+      }
+    },
+    {
+      "id": "0410a80af4192d1fddb0270b9f01bbdb1b8f1703d95a1377940a9764818aacc3",
+      "careerCode": "HR",
+      "flight_code": "H1-8735",
+      "flight_name": "China United Airlines",
+      "stops": "Direct",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T14:10:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-12T15:12:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8735"
+      ],
+      "duration": {
+        "text": "01h 02m",
+        "value": 62
+      },
+      "stopSummary": {},
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 3190.6,
+        "tax": 2096.68,
+        "base": 1093.92
+      }
+    },
+    {
+      "id": "9cdad93511f5193fbe653df7a8dcfa8a3ecbe066a84524e9d8aeeac9458ed201",
+      "careerCode": "HR",
+      "flight_code": "H1-8416",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T05:35:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-12T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8416",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "07h 25m",
+        "value": 445
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "GDL",
+          "stopDuration": 283
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 6153.3,
+        "tax": 3691.98,
+        "base": 2461.3199999999997
+      }
+    },
+    {
+      "id": "7b86abe27a34df3921ecd5211353230acc9921cd4fef728728548f840840452d",
+      "careerCode": "HR",
+      "flight_code": "H1-8422",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T05:05:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-12T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8422",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "07h 55m",
+        "value": 475
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "GDL",
+          "stopDuration": 313
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 6153.3,
+        "tax": 3691.98,
+        "base": 2461.3199999999997
+      }
+    },
+    {
+      "id": "5bb2e335a4cec56c5cde6a0836fa56ae3a4d745fd5022ab958cf0bfcec8e0b1a",
+      "careerCode": "HR",
+      "flight_code": "H1-8474",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T20:10:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8474",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "16h 50m",
+        "value": 1010
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "GDL",
+          "stopDuration": 848
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 6153.3,
+        "tax": 3691.98,
+        "base": 2461.3199999999997
+      }
+    },
+    {
+      "id": "778812c7243b7b6cfa1efd4aa7fc62d9d8957126c57937bf2a51f2bec54c2b1c",
+      "careerCode": "HR",
+      "flight_code": "H1-8410",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T18:45:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8410",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "18h 15m",
+        "value": 1095
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "GDL",
+          "stopDuration": 933
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 6153.3,
+        "tax": 3691.98,
+        "base": 2461.3199999999997
+      }
+    },
+    {
+      "id": "a6cf1967f49321900f49bd4fd686047d800976850567585695371456a2a0cfe1",
+      "careerCode": "HR",
+      "flight_code": "H1-8596",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T14:40:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8596",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "22h 20m",
+        "value": 1340
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "GDL",
+          "stopDuration": 1178
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 6198.88,
+        "tax": 3691.98,
+        "base": 2506.9
+      }
+    },
+    {
+      "id": "d87b0e506e475197f91fe7a658000af1f136ffdbae0f1f2850ddba1effc97ea9",
+      "careerCode": "HR",
+      "flight_code": "H1-8124",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T05:00:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8124",
+        "H1-3850",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "32h 00m",
+        "value": 1920
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "MTY",
+          "stopDuration": 831
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 821
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 8523.46,
+        "tax": 5196.12,
+        "base": 3327.3399999999997
+      }
+    },
+    {
+      "id": "391a8f5344bc7ace57ecbbead15aa1e650f34222a04aa33017f687105c9e037f",
+      "careerCode": "HR",
+      "flight_code": "H1-8124",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T05:00:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8124",
+        "H1-8129",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "32h 00m",
+        "value": 1920
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "MTY",
+          "stopDuration": 435
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 1217
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 8523.46,
+        "tax": 5196.12,
+        "base": 3327.3399999999997
+      }
+    },
+    {
+      "id": "ce0d4e92cb0a1485eaec25c23609469d626e05b242d65845ca53c219f8ed4996",
+      "careerCode": "HR",
+      "flight_code": "H1-8124",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T05:00:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8124",
+        "H1-8373",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "32h 00m",
+        "value": 1920
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "MTY",
+          "stopDuration": 682
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 970
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 8523.46,
+        "tax": 5196.12,
+        "base": 3327.3399999999997
+      }
+    },
+    {
+      "id": "11e93c75936de03d57d2c77fe045c331ea16f4aba3e3d550fa91a221c766b12c",
+      "careerCode": "HR",
+      "flight_code": "H1-8118",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T20:15:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8118",
+        "H1-8552",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "16h 45m",
+        "value": 1005
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "MTY",
+          "stopDuration": 558
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 179
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 8614.619999999999,
+        "tax": 5196.12,
+        "base": 3418.5
+      }
+    },
+    {
+      "id": "adcd679abe6e29c3ef5617bfc8084d04670f1fb5cfd21e891d8b64945b813a13",
+      "careerCode": "HR",
+      "flight_code": "H1-8598",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T17:25:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8598",
+        "H1-8528",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "19h 35m",
+        "value": 1175
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "OAX",
+          "stopDuration": 774
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 153
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 8933.68,
+        "tax": 5241.7,
+        "base": 3691.98
+      }
+    },
+    {
+      "id": "3baddd29d5b8a9f89272f73d3e16a3f33de374cb8f3b7907620ffdeea408c68c",
+      "careerCode": "HR",
+      "flight_code": "H1-8399",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T09:30:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8399",
+        "H1-8528",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "27h 30m",
+        "value": 1650
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "OAX",
+          "stopDuration": 1249
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 153
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 8933.68,
+        "tax": 5241.7,
+        "base": 3691.98
+      }
+    },
+    {
+      "id": "06fbcbeb060b259952fabc488caba24714046d771c7002bf1f0ee97ad79418cc",
+      "careerCode": "HR",
+      "flight_code": "H1-8565",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T23:05:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T21:15:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8565",
+        "H1-8812"
+      ],
+      "duration": {
+        "text": "22h 10m",
+        "value": 1330
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "TIJ",
+          "stopDuration": 903
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9024.84,
+        "tax": 4102.2,
+        "base": 4922.639999999999
+      }
+    },
+    {
+      "id": "79105c9c279d5b650bc2e41674251b2490a831b63569ab5409b5393c486fb7df",
+      "careerCode": "HR",
+      "flight_code": "H1-8565",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T23:05:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-14T04:29:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8565",
+        "H1-8586"
+      ],
+      "duration": {
+        "text": "29h 24m",
+        "value": 1764
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "TIJ",
+          "stopDuration": 1337
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9024.84,
+        "tax": 4102.2,
+        "base": 4922.639999999999
+      }
+    },
+    {
+      "id": "db12626cf4d070d34fd9f42a3e81b6bfac816d39014add2cdb8b5def6720d100",
+      "careerCode": "HR",
+      "flight_code": "H1-8399",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T09:30:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8399",
+        "H1-8128",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "27h 30m",
+        "value": 1650
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "OAX",
+          "stopDuration": 427
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 975
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9070.42,
+        "tax": 5287.28,
+        "base": 3783.14
+      }
+    },
+    {
+      "id": "e579d3fca318591e04b25cc242fa386a3c1ead382b8687f108d261236bc18c9a",
+      "careerCode": "HR",
+      "flight_code": "H1-8142",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T17:45:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8142",
+        "H1-8349",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "19h 15m",
+        "value": 1155
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 634
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 134
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9116,
+        "tax": 5287.28,
+        "base": 3828.72
+      }
+    },
+    {
+      "id": "eeed1ed7aab8a09a407e7b70bf31db0119f499a81dc24ad3282833b2a1e1421f",
+      "careerCode": "HR",
+      "flight_code": "H1-8398",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T16:40:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8398",
+        "H1-8349",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "20h 20m",
+        "value": 1220
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 699
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 134
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9116,
+        "tax": 5287.28,
+        "base": 3828.72
+      }
+    },
+    {
+      "id": "cb6ecd68259e72fac3e0829c9fa56b1c4bac8969820487d2d2814036425cb79f",
+      "careerCode": "HR",
+      "flight_code": "H1-8397",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T16:20:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8397",
+        "H1-8349",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "20h 40m",
+        "value": 1240
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 719
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 134
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9161.58,
+        "tax": 5287.28,
+        "base": 3874.2999999999997
+      }
+    },
+    {
+      "id": "cd97c1acc65ded50f236be913d9475e4395a87833707b5bb276eaee799dce0ab",
+      "careerCode": "HR",
+      "flight_code": "H1-8132",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T15:05:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8132",
+        "H1-8369",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "21h 55m",
+        "value": 1315
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUL",
+          "stopDuration": 257
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 772
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9161.58,
+        "tax": 5287.28,
+        "base": 3874.2999999999997
+      }
+    },
+    {
+      "id": "1cf851149ebc74163990f7a2508aa5479494278101b0feb2c045e8483e7994d5",
+      "careerCode": "HR",
+      "flight_code": "H1-8132",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T15:05:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8132",
+        "H1-8558",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "21h 55m",
+        "value": 1315
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUL",
+          "stopDuration": 874
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 155
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9161.58,
+        "tax": 5287.28,
+        "base": 3874.2999999999997
+      }
+    },
+    {
+      "id": "8e159028f35c1148ee078c8d414d50aea139df3f5bdba72e237c8ce82111fb02",
+      "careerCode": "HR",
+      "flight_code": "H1-8436",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T12:40:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8436",
+        "H1-8369",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "24h 20m",
+        "value": 1460
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUL",
+          "stopDuration": 402
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 772
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9161.58,
+        "tax": 5287.28,
+        "base": 3874.2999999999997
+      }
+    },
+    {
+      "id": "ab5556272ce66044cf0c7454c9e812bede07714532e576a7f7a1694e10163fe9",
+      "careerCode": "HR",
+      "flight_code": "H1-8436",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T12:40:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8436",
+        "H1-8558",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "24h 20m",
+        "value": 1460
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUL",
+          "stopDuration": 1019
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 155
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9161.58,
+        "tax": 5287.28,
+        "base": 3874.2999999999997
+      }
+    },
+    {
+      "id": "46922a891077a8fb90e61e47e459fe3728e7a3316b3d03381f0921880d27e39e",
+      "careerCode": "HR",
+      "flight_code": "H1-8451",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T06:10:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T04:29:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8451",
+        "H1-8586"
+      ],
+      "duration": {
+        "text": "22h 19m",
+        "value": 1339
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "TIJ",
+          "stopDuration": 912
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9161.58,
+        "tax": 4102.2,
+        "base": 5059.38
+      }
+    },
+    {
+      "id": "5ad899016d9f1b87912dc26bdae927c0215b29f4013e0898ca2877c8970e8761",
+      "careerCode": "HR",
+      "flight_code": "H1-8699",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T02:45:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T04:29:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8699",
+        "H1-8586"
+      ],
+      "duration": {
+        "text": "25h 44m",
+        "value": 1544
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "TIJ",
+          "stopDuration": 1117
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9161.58,
+        "tax": 4102.2,
+        "base": 5059.38
+      }
+    },
+    {
+      "id": "dace9f5b2de9aec6b3693a624783b754ba55760cb0fb5ed2292c986e8be82178",
+      "careerCode": "HR",
+      "flight_code": "H1-8445",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T21:45:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T21:15:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8445",
+        "H1-8812"
+      ],
+      "duration": {
+        "text": "23h 30m",
+        "value": 1410
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "TIJ",
+          "stopDuration": 983
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9161.58,
+        "tax": 4102.2,
+        "base": 5059.38
+      }
+    },
+    {
+      "id": "656ac183a99a679a2020cc4dfc906435e976daa6b26080e5ff32765058105f0c",
+      "careerCode": "HR",
+      "flight_code": "H1-8445",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T21:45:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-14T04:29:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8445",
+        "H1-8586"
+      ],
+      "duration": {
+        "text": "30h 44m",
+        "value": 1844
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "TIJ",
+          "stopDuration": 1417
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9161.58,
+        "tax": 4102.2,
+        "base": 5059.38
+      }
+    },
+    {
+      "id": "bc236177ad076d0e8094e4570521f85ac87672352c477d1b51ce69d0916417dc",
+      "careerCode": "HR",
+      "flight_code": "H1-8590",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T11:35:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8590",
+        "H1-8728",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "25h 25m",
+        "value": 1525
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "TGZ",
+          "stopDuration": 233
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 995
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9161.58,
+        "tax": 5287.28,
+        "base": 3874.2999999999997
+      }
+    },
+    {
+      "id": "84cc9cb67656f352a5b7e482ff7d8d37cb41d5fefc74f9c3b59bd320d84916c2",
+      "careerCode": "HR",
+      "flight_code": "H1-8481",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T07:20:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8481",
+        "H1-8726",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "29h 40m",
+        "value": 1780
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "MID",
+          "stopDuration": 664
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 778
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9252.74,
+        "tax": 5287.28,
+        "base": 3965.46
+      }
+    },
+    {
+      "id": "987bb8487cc25eae82f48370c9ca27b968097ab68c83bf905bf84e788be9516f",
+      "careerCode": "HR",
+      "flight_code": "H1-8561",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T14:00:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8561",
+        "H1-8349",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "23h 00m",
+        "value": 1380
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 859
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 134
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9343.9,
+        "tax": 5332.86,
+        "base": 4011.04
+      }
+    },
+    {
+      "id": "bdfc015b1f6f245e0defa6a07875cd3feef39b207316b6ae5f44bf2e97c7cdd0",
+      "careerCode": "HR",
+      "flight_code": "H1-8146",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T09:30:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8146",
+        "H1-8349",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "27h 30m",
+        "value": 1650
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 1129
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 134
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9343.9,
+        "tax": 5332.86,
+        "base": 4011.04
+      }
+    },
+    {
+      "id": "97c68dd0e957c59773fe1d356717e362194f03700c0200444cdaf1f47e3d953a",
+      "careerCode": "HR",
+      "flight_code": "H1-8593",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T11:15:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8593",
+        "H1-8349",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "25h 45m",
+        "value": 1545
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 1024
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 134
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9343.9,
+        "tax": 5332.86,
+        "base": 4011.04
+      }
+    },
+    {
+      "id": "ace739f9d3a0810ed0d3df8887f223300938716b574d8d155319949d04b0c5a7",
+      "careerCode": "HR",
+      "flight_code": "H1-8455",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T18:40:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T04:29:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8455",
+        "H1-8586"
+      ],
+      "duration": {
+        "text": "09h 49m",
+        "value": 589
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "TIJ",
+          "stopDuration": 162
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9389.48,
+        "tax": 4147.78,
+        "base": 5241.7
+      }
+    },
+    {
+      "id": "46ca5516001f3a8bde8b2df9a6c75b87627c81eb2cd46ced4bacdbdeb98780b9",
+      "careerCode": "HR",
+      "flight_code": "H1-8449",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T09:30:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T04:29:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8449",
+        "H1-8586"
+      ],
+      "duration": {
+        "text": "18h 59m",
+        "value": 1139
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "TIJ",
+          "stopDuration": 712
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9389.48,
+        "tax": 4147.78,
+        "base": 5241.7
+      }
+    },
+    {
+      "id": "a1881355aadae697ffacc864a80d00d52796d5aeecefd56a2f8f7ed9e02b4ef6",
+      "careerCode": "HR",
+      "flight_code": "H1-8455",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T18:40:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T21:15:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8455",
+        "H1-8812"
+      ],
+      "duration": {
+        "text": "26h 35m",
+        "value": 1595
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "TIJ",
+          "stopDuration": 1168
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9389.48,
+        "tax": 4147.78,
+        "base": 5241.7
+      }
+    },
+    {
+      "id": "c243af5205176313b9c38080277bb557d5d9488521ca702be40cd493c2e475bb",
+      "careerCode": "HR",
+      "flight_code": "H1-8382",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T08:35:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8382",
+        "H1-8349",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "28h 25m",
+        "value": 1705
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 1184
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 134
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9389.48,
+        "tax": 5332.86,
+        "base": 4056.62
+      }
+    },
+    {
+      "id": "d1fb9f4d10ca20491dd2f7423b4d08410ffaf202c5a6610a3d17a8836b031f86",
+      "careerCode": "HR",
+      "flight_code": "H1-8395",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T06:35:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8395",
+        "H1-8349",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "30h 25m",
+        "value": 1825
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 1304
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 134
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9389.48,
+        "tax": 5332.86,
+        "base": 4056.62
+      }
+    },
+    {
+      "id": "ad26c8bd7c04c8987e1c8b44e94f057c5f33b6a7068787d3dbc46f2fe0926cdc",
+      "careerCode": "HR",
+      "flight_code": "H1-8316",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T05:40:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8316",
+        "H1-8726",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "31h 20m",
+        "value": 1880
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "MID",
+          "stopDuration": 764
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 778
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9389.48,
+        "tax": 5332.86,
+        "base": 4056.62
+      }
+    },
+    {
+      "id": "03b9f78c148439caa600602a90e4933cb7fa844dde09878057d9a20d29034271",
+      "careerCode": "HR",
+      "flight_code": "H1-8136",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T07:25:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8136",
+        "H1-8343",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "29h 35m",
+        "value": 1775
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "PXM",
+          "stopDuration": 240
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 1272
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9571.8,
+        "tax": 5332.86,
+        "base": 4238.94
+      }
+    },
+    {
+      "id": "a861f9609076d732d417479c096cebcd9318904840b5b56b773a9e0c3b54808d",
+      "careerCode": "HR",
+      "flight_code": "H1-8340",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T05:50:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8340",
+        "H1-8548",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "31h 10m",
+        "value": 1870
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "SJD",
+          "stopDuration": 833
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 732
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9571.8,
+        "tax": 5332.86,
+        "base": 4238.94
+      }
+    },
+    {
+      "id": "cebd30ae92a4f9ce657faba5a90c0491fc256e068048fffede064283a2d2118d",
+      "careerCode": "HR",
+      "flight_code": "H1-8569",
+      "flight_name": "China United Airlines",
+      "stops": "1 Stop",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T13:15:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T04:29:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8569",
+        "H1-8586"
+      ],
+      "duration": {
+        "text": "15h 14m",
+        "value": 914
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "TIJ",
+          "stopDuration": 487
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9708.539999999999,
+        "tax": 4193.36,
+        "base": 5515.179999999999
+      }
+    },
+    {
+      "id": "71f26a22ba61b62e109e830b377828e82c76ce20eaf7971437aab1b1f99b4058",
+      "careerCode": "HR",
+      "flight_code": "H1-8340",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T05:50:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8340",
+        "H1-8156",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "31h 10m",
+        "value": 1870
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "SJD",
+          "stopDuration": 233
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 1332
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9708.539999999999,
+        "tax": 5378.44,
+        "base": 4330.099999999999
+      }
+    },
+    {
+      "id": "026865eeac3082655591543d1c39e844af123002afa81a04eb33af96d2977bbf",
+      "careerCode": "HR",
+      "flight_code": "H1-8340",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T05:50:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8340",
+        "H1-8425",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "31h 10m",
+        "value": 1870
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "SJD",
+          "stopDuration": 406
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 1159
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 9754.119999999999,
+        "tax": 5378.44,
+        "base": 4375.68
+      }
+    },
+    {
+      "id": "ffc6077d23d385bdd723918221b00a773a86e6b4225b928ce5e89039170dd242",
+      "careerCode": "HR",
+      "flight_code": "H1-8398",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T16:40:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8398",
+        "H1-8347",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "20h 20m",
+        "value": 1220
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 97
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 736
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 11987.539999999999,
+        "tax": 5697.5,
+        "base": 6290.04
+      }
+    },
+    {
+      "id": "ca96fd9a21080f8307921db78825541f8f453a23e28708d63ba4b2b2ec082197",
+      "careerCode": "HR",
+      "flight_code": "H1-8397",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T16:20:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8397",
+        "H1-8347",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "20h 40m",
+        "value": 1240
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 117
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 736
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12033.119999999999,
+        "tax": 5697.5,
+        "base": 6335.62
+      }
+    },
+    {
+      "id": "79b2a1427ca9fe9abacf17cdacdb947a7dc441c7331c7ee4f476b430b6667916",
+      "careerCode": "HR",
+      "flight_code": "H1-8561",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T14:00:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8561",
+        "H1-8347",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "23h 00m",
+        "value": 1380
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 257
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 736
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12169.859999999999,
+        "tax": 5697.5,
+        "base": 6472.36
+      }
+    },
+    {
+      "id": "2dff3a9b47e86d8a9cf20951f431a44e162573d091aa94d4aa1bbd4cb1cdeab8",
+      "careerCode": "HR",
+      "flight_code": "H1-8146",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T09:30:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8146",
+        "H1-8347",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "27h 30m",
+        "value": 1650
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 527
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 736
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12169.859999999999,
+        "tax": 5697.5,
+        "base": 6472.36
+      }
+    },
+    {
+      "id": "bc9514fd7b8786bb0463dafe0b28d8e2a28739e0a40cd9da9205de1a94447844",
+      "careerCode": "HR",
+      "flight_code": "H1-8561",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T14:00:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8561",
+        "H1-8365",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "23h 00m",
+        "value": 1380
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 217
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 776
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12169.859999999999,
+        "tax": 5697.5,
+        "base": 6472.36
+      }
+    },
+    {
+      "id": "0dac7f53ef4e7ca9c720dd99dccb2d176bd0e3e08500fb9dc3f31f91a2f6ea9b",
+      "careerCode": "HR",
+      "flight_code": "H1-8146",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T09:30:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8146",
+        "H1-8365",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "27h 30m",
+        "value": 1650
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 487
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 776
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12169.859999999999,
+        "tax": 5697.5,
+        "base": 6472.36
+      }
+    },
+    {
+      "id": "1c0cebd9b9b9e3e3b28071a3646e5db82659fe8fa07e66b8c7e3739056febb09",
+      "careerCode": "HR",
+      "flight_code": "H1-8593",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T11:15:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8593",
+        "H1-8347",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "25h 45m",
+        "value": 1545
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 422
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 736
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12169.859999999999,
+        "tax": 5697.5,
+        "base": 6472.36
+      }
+    },
+    {
+      "id": "2d4b817265c0ddea6bb1ddcf7ec148dbd2a8a72a7f00d26dd5f249153c40184d",
+      "careerCode": "HR",
+      "flight_code": "H1-8593",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T11:15:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8593",
+        "H1-8365",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "25h 45m",
+        "value": 1545
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 382
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 776
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12169.859999999999,
+        "tax": 5697.5,
+        "base": 6472.36
+      }
+    },
+    {
+      "id": "2551a1b71f52b43c38ca2a6252df108fe3208b5bd71684067c7b30631cc7f61e",
+      "careerCode": "HR",
+      "flight_code": "H1-8382",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T08:35:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8382",
+        "H1-8347",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "28h 25m",
+        "value": 1705
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 582
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 736
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12215.439999999999,
+        "tax": 5697.5,
+        "base": 6517.94
+      }
+    },
+    {
+      "id": "06138df28b3b375b2aa0ae5a08f85aee97fa9b91477e2ccd706f58fce33894e9",
+      "careerCode": "HR",
+      "flight_code": "H1-8382",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T08:35:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8382",
+        "H1-8365",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "28h 25m",
+        "value": 1705
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 542
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 776
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12215.439999999999,
+        "tax": 5697.5,
+        "base": 6517.94
+      }
+    },
+    {
+      "id": "0a40ed45cbf04829e5f3cfe58182d6c1f56d5f39062f8b5c7a51859f1986efe0",
+      "careerCode": "HR",
+      "flight_code": "H1-8395",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T06:35:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8395",
+        "H1-8347",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "30h 25m",
+        "value": 1825
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 702
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 736
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12215.439999999999,
+        "tax": 5697.5,
+        "base": 6517.94
+      }
+    },
+    {
+      "id": "e8caed211b38b82744f0bce7362eb65eba8f0d3d11b0286c739f81a18122f982",
+      "careerCode": "HR",
+      "flight_code": "H1-8395",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T06:35:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8395",
+        "H1-8365",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "30h 25m",
+        "value": 1825
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "CUN",
+          "stopDuration": 662
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 776
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12215.439999999999,
+        "tax": 5697.5,
+        "base": 6517.94
+      }
+    },
+    {
+      "id": "08e3d33edc68578a80f2628e803666a45eecf85b038bd07358633b0e9f7679c1",
+      "careerCode": "HR",
+      "flight_code": "H1-8430",
+      "flight_name": "China United Airlines",
+      "stops": "2 Stops",
+      "cabinType": "Economy",
+      "baggage": {
+        "cabin": {
+          "qty": 1,
+          "unit": "KG",
+          "text": "7 KG",
+          "allowance": 7
+        },
+        "checkIn": {
+          "allowance": 1,
+          "qty": "N",
+          "unit": null,
+          "text": "1 PIECE",
+          "refNumber": 2,
+          "quantity": 1
+        }
+      },
+      "currency": "MXN",
+      "departureAirport": {
+        "time": "2023-08-12T14:00:00",
+        "code": "MEX",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "1",
+        "label": "Benito Juarez International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Mexico City"
+      },
+      "arrivalAirport": {
+        "time": "2023-08-13T13:00:00",
+        "code": "ACA",
+        "tz": "America/Mexico_City",
+        "timeZone": "-6.00",
+        "type": "4",
+        "label": "Acapulco International Airport",
+        "country": {
+          "label": "Mexico",
+          "code": "MX"
+        },
+        "city": "Acapulco"
+      },
+      "path": [
+        "H1-8430",
+        "H1-8548",
+        "H1-8113"
+      ],
+      "duration": {
+        "text": "23h 00m",
+        "value": 1380
+      },
+      "stopSummary": {
+        "0": {
+          "airport": "SJD",
+          "stopDuration": 343
+        },
+        "1": {
+          "airport": "GDL",
+          "stopDuration": 732
+        }
+      },
+      "totals": {
+        "currency": "MXN",
+        "baggage": null,
+        "penalty": null,
+        "total": 12853.56,
+        "tax": 5788.66,
+        "base": 7064.9
+      }
+    }
+  ]
+}
