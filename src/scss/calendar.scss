@@ -144,6 +144,10 @@
 #traveler {
   font-family: 'Montserrat', sans-serif;
   
+  h1 {
+    padding-top: 10px;
+  }
+
   .traveler-form {
     background-color: variables.$form-bg-color;
     padding: 50px 20px;
@@ -160,6 +164,33 @@
     border-radius: 20%;
   }
 
+  input, .form-control {
+    border-radius: 20px;
+    color: #3e485c;
+    background-color: #F3F4F6FF;
+    padding: 10px;
+
+    &::-webkit-input-placeholder {
+      color: variables.$form-input-placeholder-color;
+    }
+
+    &:-ms-input-placeholder {
+      color: variables.$form-input-placeholder-color;
+    }
+
+    &::placeholder {
+      color: variables.$form-input-placeholder-color;
+    }
+
+    &[type="date"].form-control:invalid {
+      color: variables.$form-input-placeholder-color;
+    }
+  }
+
+  .bi-person-circle {
+    width: 500px;
+  }
+
   .submit-btn {
     display: inline-block;
     color: #fff;
@@ -172,9 +203,6 @@
     transition: 0.2s all;
   }
 
-  h3 {
-    padding-top: 20px;
-  }
 }
 
 //Termina el formulario de travel
