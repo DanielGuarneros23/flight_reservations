@@ -237,8 +237,8 @@
           <div class="row mt-5">
             <div class="col-md-8">
               <div class="traveler-form">
-                <form>
-                  <h3>Pasajero #</h3>
+                <form onsubmit="myclass.clicked(event)">
+                  <h3>Pasajero 1</h3>
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
@@ -253,8 +253,6 @@
                       </div>
                     </div>
                   </div>
-                  <!-- <div id="departure-suggestions"></div> -->
-                  <!-- <div id="destination-suggestions"></div> -->
                   <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4">
                       <div class="form-group">
@@ -300,12 +298,30 @@
                     <div class="col-sm-12 col-md-4 col-lg-4">
                       <div class="form-group">
                         <span class="form-label">Numero Teléfonico</span>
-                        <input class="form-control" id="phoneNumber1" type="number" placeholder="ingresa tu numero" required>
+                        <input class="form-control" id="phoneNumber1" type="number" placeholder="ingresa tu numero"
+                          required>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Adults</span>
+                        <select class="form-control" id="noAdult">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                        <span class="select-arrow"></span>
                       </div>
                     </div>
                   </div>
+                  <div id="contenedor">
+
+                  </div>
                   <div class="form-btn">
-                    <button class="submit-btn" onclick="myclass.clicked()">Submit</button>
+                    <button class="submit-btn" type="submit">Submit</button>
+                    <button class="submit-btn" onclick="myclass.generarFormularios()">generar formularios</button> 
                   </div>
                 </form>
               </div>
@@ -375,63 +391,63 @@
             </div>
           </div> -->
         </div>
-    </div> 
-  </div>
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-  <div class="pages">
-  <div class="page" id="page_contact">
-    <h1>Page4</h1>
-    <button onclick="myclass.clicked()">click</button>
-  </div>
-  </div>
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-  <div class="pages">
-    <div class="page" id="page_ticket">
-      <h1>Page 5</h1>
-      <button onclick="myclass.clicked()">click</button>
-    </div>
-  </div>
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-
-
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-  <footer class="container footer ">
-    <div class="row text-center">
-      <div class="col-md-4">
-        <h3>Información de contacto</h3>
-        <p>Nombre de la aerolínea</p>
-        <p>Dirección de la aerolínea</p>
-        <p>Teléfono: +1 234 567 890</p>
-        <p>Email: info@aerolinea.com</p>
       </div>
-      <div class="col-md-4">
-        <h3>Redes sociales</h3>
-        <div class="row">
-          <p class="col">Twitter</p>
-          <p class="col">Instagram</p>
-          <p class="col">Facebook</p>
+    </div>
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <div class="pages">
+      <div class="page" id="page_contact">
+        <h1>Page4</h1>
+        <button onclick="myclass.clicked()">click</button>
+      </div>
+    </div>
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <div class="pages">
+      <div class="page" id="page_ticket">
+        <h1>Page 5</h1>
+        <button onclick="myclass.clicked()">click</button>
+      </div>
+    </div>
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+
+    <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <footer class="container footer ">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <h3>Información de contacto</h3>
+          <p>Nombre de la aerolínea</p>
+          <p>Dirección de la aerolínea</p>
+          <p>Teléfono: +1 234 567 890</p>
+          <p>Email: info@aerolinea.com</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Redes sociales</h3>
+          <div class="row">
+            <p class="col">Twitter</p>
+            <p class="col">Instagram</p>
+            <p class="col">Facebook</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3>¡Suscríbete a nuestro boletín!</h3>
+          <p>Recibe las últimas ofertas y noticias sobre vuelos.</p>
+          <form class="subscribe-form" action="#" method="post">
+            <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+            <button type="submit">Suscribirse</button>
+          </form>
+        </div>
+
+      </div>
+      <div class="row my-3">
+        <div class="col-12">
+          <p class="text-center">&copy; 2023 Nombre de la aerolínea. Todos los derechos reservados.</p>
         </div>
       </div>
-      <div class="col-md-4">
-        <h3>¡Suscríbete a nuestro boletín!</h3>
-        <p>Recibe las últimas ofertas y noticias sobre vuelos.</p>
-        <form class="subscribe-form" action="#" method="post">
-          <input type="email" name="email" placeholder="Ingresa tu correo electrónico" required>
-          <button type="submit">Suscribirse</button>
-        </form>
-      </div>
-
-    </div>
-    <div class="row my-3">
-      <div class="col-12">
-        <p class="text-center">&copy; 2023 Nombre de la aerolínea. Todos los derechos reservados.</p>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 </body>
 <script>
@@ -448,15 +464,100 @@
     }
   }
   class formClass {
-    
-    clicked() {    
-      let nombre = document.getElementById("name1");
-      let apellido = document.getElementById("lastname1");
-      let sexo = document.getElementById("gender1");
-      let fechaNacimiento = document.getElementById("birthDate1");
-      let paisR = document.getElementById("country1");
-      let correo = document.getElementById("email1");
-      let telefono = document.getElementById("phoneNumber1");
+
+    generarFormularios() {
+      // Obtener el valor seleccionado por el usuario
+      const numeroSeleccionado = parseInt(document.getElementById('noAdult').value);
+      //console.log(numeroSeleccionado);
+      // Obtener referencia al contenedor de formularios
+      //const contenedor = document.getElementById('contenedor');
+      // Limpiar el contenedor antes de agregar nuevos formularios
+      //contenedor.innerHTML = '';
+      // Generar los formularios y agregarlos al contenedor
+      for (let i = 0; i < numeroSeleccionado -1; i++) {
+        let formulario = document.createElement('form');
+        formulario = `
+        <h3>Pasajero ${i+2}</h3>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <span class="form-label">Nombre</span>
+                        <input class="form-control" type="text" id="name${i+2}" placeholder="Enter your name">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <span class="form-label">Apellido</span>
+                        <input class="form-control" type="text" id="lastname${i+2}" placeholder="Enter your last name">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Sexo</span>
+                        <select class="form-control" id="gender${i+2}">
+                          <option>Seleccionar</option>
+                          <option>Hombre</option>
+                          <option>Mujer</option>
+                          <option>No binario</option>
+                          <option>Prefiero no responder</option>
+                        </select>
+                        <span class="select-arrow"></span>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Fecha de Nacimiento</span>
+                        <input class="form-control" type="date" id="birthDate${i+2}" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">País de Recidencia</span>
+                        <select class="form-control" id="country${i+2}">
+                          <option>Seleccionar</option>
+                          <option>México</option>
+                          <option>Estados Unidos</option>
+                          <option>Colombia</option>
+                          <option>Canada</option>
+                          <option>Guatemala</option>
+                        </select>
+                        <span class="select-arrow"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Correo Electronico</span>
+                        <input class="form-control" id="email${i+2}" type="email" placeholder="Ingresa tu correo" required>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                      <div class="form-group">
+                        <span class="form-label">Numero Teléfonico</span>
+                        <input class="form-control" id="phoneNumber${i+2}" type="number" placeholder="ingresa tu numero"
+                          required>
+                      </div>
+                    </div>
+                  </div>
+    `;
+        //contenedor.appendChild(formulario);
+        document.getElementById("contenedor").innerHTML += formulario;
+      }
+    }
+    clicked(event) {
+      event.preventDefault();
+      console.log("enviando formulario");
+      return;
+      let nombre = document.getElementById("name1").value;
+      let apellido = document.getElementById("lastname1").value;
+      let sexo = document.getElementById("gender1").value;
+      let fechaNacimiento = document.getElementById("birthDate1").value;
+      let paisR = document.getElementById("country1").value;
+      let correo = document.getElementById("email1").value;
+      let telefono = document.getElementById("phoneNumber1").value;
 
       const dataP = {
         nombreP: nombre,
@@ -465,11 +566,21 @@
         fechaNacimientoP: fechaNacimiento,
         paisRP: paisR,
         correoP: correo,
-        telefonoP: telefono}  
-      mystate.set("NOMBRE", nombreP);
+        telefonoP: telefono
+      }
+      //mystate.set("formulario", dataP);
       console.log("clicked on form class");
-      console.log(mystate.get("NOMBRE"));
-      console.log("datos");
+      //console.log(mystate.get("formulario"));
+      localStorage.setItem("data", JSON.stringify(dataP));
+      //console.log(localStorage.getItem("data"));
+      //console.log(mystate.get("formulario"));
+      //console.log(nombre);
+      //console.log(apellido);
+      //console.log(sexo);
+      //console.log(fechaNacimiento);
+      //console.log(paisR);
+      //console.log(correo);
+      //console.log(telefono);
     }
   }
   class contactClass {
@@ -477,6 +588,7 @@
       console.log("clicked on contact class");
       state.producto = null;
       console.log("Producto:" + state.producto);
+      console.log(mystate.get("formulario"));
     }
   }
   class ticketClass {
