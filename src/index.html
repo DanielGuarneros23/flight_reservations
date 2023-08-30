@@ -10,8 +10,10 @@
   <link rel="stylesheet" href="scss/calendar.scss">
   <link rel="stylesheet" href="scss/footer.scss">
   <link rel="stylesheet" href="scss/icon-list.scss">
-  <!--<script type="module" src="./js/main.js"></script>-->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="scss/flightsavailable.scss">
   <script type="module" src="js/main.tsx"></script>
+  <script type="module" src="js/flightsavailable.ts"></script>
 </head>
 
 <body>
@@ -103,10 +105,10 @@
       </nav>
     </div>
   </header>
-
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+  <!-- >>>>>>>>>>>>>>>>>>>>>>>Page 1 Calendar <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
   <div class="pages">
     <div class="page" id="page_home">
+      <!--Inicia page 1-->
       <div id="booking" class="section">
         <div class="section-center">
           <div class="container">
@@ -203,14 +205,48 @@
   </div>
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page1 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-  <!--Inicia segundo page-->
-  <div class="pages">
-    <div class="page" id="page_about">
-      <h1>PAGE 2</h1>
+    <div class="page banner" id="page_contact">
+      <h1>Abre las alas</h1>
     </div>
-  </div>
-  <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page2 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    <div class="flight-cards" id="flight-cards">
+      <!-- <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Título de la tarjeta</h5>
+              <p class="card-text">Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción
+                natural a contenido adicional. Este contenido es un poco más largo.</p>
+              <p class="card-text"><small class="text-muted">Última actualización hace 3 minutos</small></p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <div>
+      <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+      <div class="pages">
+        <div class="page" id="page_about">
+          <!--Inicia segundo page-->
+          <div id="traveler" class="">
+            <div class="container">
+              <h1>Mi reserva</h1>
+              <div class="row">
+                <div class="col-md-6 offset-md-3">
+                  <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="col-sm-1">
+                  <i class="bi bi-info-circle"></i>
+                </div>
+                <div class="col-sm-11">
+                  <h3>¿Quienes viajan?</h3>
+                </div>
+              </div>
 
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
   <!--Inicia el tercer page-->
@@ -364,14 +400,21 @@
   </div>
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page3 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
+
+        <!-- <div class="page" id="page_contact" style="display: none;">
+          <h1>Content contact...</h1>
+          <button onclick="myclass.clicked()">click</button>
+        </div> -->
+
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
-  <div class="pages">
+  <!--<div class="pages">
   <div class="page" id="page_contact">
     <h1>Page4</h1>
     <button onclick="myclass.clicked()">click</button>
   </div>
-  </div>
+  </div>-->
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Termina Page4 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
 
   <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Inicia Page5 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
   <div class="pages">
@@ -516,8 +559,8 @@
 
   loadContent("home");
 </script>
-<script src="./js/main.tsx"></script>
-<script src="./js/autocomplete.ts"></script>
-<script src="./js/navbar.ts"></script>
+<!-- <script src="./js/main.tsx"></script> -->
+<!-- <script src="./js/autocomplete.ts"></script>
+<script src="./js/navbar.ts"></script> -->
 
 </html>
